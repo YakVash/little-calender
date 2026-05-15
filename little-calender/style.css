@@ -25,11 +25,13 @@ body {
   padding: 1rem 1.0625rem;
 
 
-  background-image: url("assets/outer-frame-bg.png");
+  background-image: url("assets/outer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.8;
+  border-radius: 20px;
+  border: #f193b9 solid 3px;
 }
 
 button,
@@ -50,10 +52,10 @@ select {
   align-items: center;
 
   border-radius: 6.25rem;
-  border: 1px solid #C079FF;
-  background: rgba(210, 164, 255, 0.40);
+  border: 1px solid #d4687e;
+  background: rgba(190, 60, 90, 0.35);
 
-  color: var(--white, #FFF);
+  color: #ffffff;
 
   /* text styling */
   font-family: Pixeboy;
@@ -73,23 +75,27 @@ select {
   align-items: center;
   gap: 1rem;
 
-  background-image: url("assets/inner-frame-bg.png");
+  background-image: url("assets/pink.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 15px;
+  box-shadow: #520826;
+  border: #ec8bb2 solid 3px;
 }
 
 #day {
-  color: #FFF;
+  color: #ffffff;
   text-align: center;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: var(--mid-purple, #B58CD9);
-  font-family: Pixeboy;
-  font-size: 8.5rem;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: #c2185b;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 5rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.25rem;
-  letter-spacing: 0.45rem;
+  letter-spacing: 0.2rem;
+  text-shadow: 0 0 10px #ff4081, 0 0 20px #ff80ab, 0 0 40px #f48fb1;
 
   display: flex;
   width: 11.25rem;
@@ -101,16 +107,18 @@ select {
 
 #month {
 
-  color: #FFF;
+  color: #ffffff;
   text-align: center;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: #B58CD9;
-  font-family: Pixeboy;
-  font-size: 2rem;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: #c2185b;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.25rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 8px #ff4081, 0 0 16px #ff80ab;
 
   width: 8.125rem;
 

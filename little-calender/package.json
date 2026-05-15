@@ -3,11 +3,14 @@
   "productName": "Little Calendar",
   "version": "1.0.0",
   "description": "A minimal Electron calendar app",
+  "author": "Yakmi",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . \"Little Calendar\" --platform=win32 --arch=x64 --out=dist --overwrite"
   },
   "devDependencies": {
-    "electron": "^latest"
+    "electron": "latest",
+    "electron-packager": "latest"
   }
 }

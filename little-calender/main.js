@@ -1,5 +1,9 @@
 const { app, BrowserWindow } = require("electron");
 
+// Fix disk cache permission errors on Windows
+app.commandLine.appendSwitch("disable-gpu-shader-disk-cache");
+app.commandLine.appendSwitch("disable-gpu-cache");
+
 function createWindow() {
   const win = new BrowserWindow({
     title: "My little calendar",
