@@ -2,11 +2,11 @@
 
 A cute desktop calendar widget built with Electron.
 
-![Pink aesthetic calendar widget](assets/outer.jpg)
+![Pink aesthetic calendar widget](assets/my_calender.jpg)
 
 ## Credits
 
-This project is inspired by / based on [ORIGINAL APP NAME](LINK TO ORIGINAL).  
+This project is inspired by / based on [little-calender]([LINK TO ORIGINAL](https://github.com/nasha-wanich/little-calendar)).  
 I customized the styling and made it my own.
 
 ## How to Run
