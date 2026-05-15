@@ -2,7 +2,7 @@
 
 A cute desktop calendar widget built with Electron.
 
-![Pink aesthetic calendar widget](assets/my_calender.jpg)
+![Pink aesthetic calendar widget](assets/my_calender.png)
 
 ## Credits
 
